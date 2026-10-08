@@ -28,6 +28,8 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Nunca guardar contraseñas, tokens, cadenas de conexión ni datos personales (incluye datos de pasajeros y de clientes personas físicas). `[decisión]`
 - Cada tarea terminada genera una memoria nueva en `chats/`; las memorias no se editan ni se borran. `[decisión]`
 - Toda afirmación relevante lleva etiqueta de certeza: `[código]`, `[datos]`, `[decisión]`, `[hipótesis]`. `[decisión]`
+- Material de un cliente que se reutiliza (ej. planes de cuentas) se anonimiza: nada de nombre del cliente, nombres propios, sucursales identificables ni números de cuenta bancaria o tarjeta. Cliente o agencia → "agencia", sucursales → "Sucursal N". Ver [chats/2026-10-08-plan-de-cuentas-anonimizado.md](chats/2026-10-08-plan-de-cuentas-anonimizado.md). `[decisión]`
+- Entorno de la PC: no hay Python. Excel sí está instalado (se puede usar por COM desde PowerShell para validar). Git está en `C:\Program Files\Git\cmd` (agregarlo al PATH vía `$env:ProgramFiles`). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
@@ -40,3 +42,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Tema | Memoria |
 |---|---|
 | Creación del repo de memoria | [chats/2026-10-08-creacion-repo-memoria.md](chats/2026-10-08-creacion-repo-memoria.md) |
+| Plan de cuentas anonimizado (sin referencias al cliente Tropical) | [chats/2026-10-08-plan-de-cuentas-anonimizado.md](chats/2026-10-08-plan-de-cuentas-anonimizado.md) |
