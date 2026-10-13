@@ -54,3 +54,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Portada tarifario Venezuela sin rótulos de destinos (edición de imagen) | [chats/2026-10-13-imagen-tarifario-venezuela-sin-destinos.md](chats/2026-10-13-imagen-tarifario-venezuela-sin-destinos.md) |
 | Maqueta de pantalla de destino del tarifario con botones Hoteles / Excursiones / Paquetes | [chats/2026-10-13-maqueta-tarifario-destino-con-botones.md](chats/2026-10-13-maqueta-tarifario-destino-con-botones.md) |
 | Guía rápida de Ficha Operativa simplificada y con identidad de marca Softur | [chats/2026-10-13-guia-rapida-ficha-operativa-con-marca.md](chats/2026-10-13-guia-rapida-ficha-operativa-con-marca.md) |
+| Guía rápida de Ficha Operativa: emisión de órdenes de servicio y pedidos a proveedores (reportes `FICHAOPE` / `PEDIDOPER`) | [chats/2026-10-13-guia-rapida-ficha-operativa-con-marca-parte-2.md](chats/2026-10-13-guia-rapida-ficha-operativa-con-marca-parte-2.md) |
