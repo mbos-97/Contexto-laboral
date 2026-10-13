@@ -1,6 +1,6 @@
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-09
+**Última consolidación:** 2026-10-13
 
 ## 1. Cómo leer esta memoria
 
@@ -30,7 +30,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Cada tarea terminada genera una memoria nueva en `chats/`; las memorias no se editan ni se borran. `[decisión]`
 - Toda afirmación relevante lleva etiqueta de certeza: `[código]`, `[datos]`, `[decisión]`, `[hipótesis]`. `[decisión]`
 - Material de un cliente que se reutiliza (ej. planes de cuentas) se anonimiza y se vuelve genérico: nada del nombre del cliente, nombres propios, sucursales, ciudades, bancos, números de cuenta o tarjeta, ni entidades que delaten el país. Reemplazos: cliente o agencia → "agencia", sucursal → "Sucursal N", ciudad → "Ciudad N", banco → "Banco N". Las siglas tributarias locales se escriben con su nombre genérico (ej. IUE → "Impuesto a las Ganancias", sin alícuotas como "13%"); ver [chats/2026-10-08-plan-de-cuentas-terminos-tributarios-genericos.md](chats/2026-10-08-plan-de-cuentas-terminos-tributarios-genericos.md). Ver [chats/2026-10-08-plan-de-cuentas-sin-ciudades-ni-bancos.md](chats/2026-10-08-plan-de-cuentas-sin-ciudades-ni-bancos.md). `[decisión]`
-- Entorno de la PC: no hay Python. Excel sí está instalado (se puede usar por COM desde PowerShell para validar). Git está en `C:\Program Files\Git\cmd` (agregarlo al PATH vía `$env:ProgramFiles`). `[datos]`
+- Entorno de la PC: no hay Python. Excel sí está instalado (se puede usar por COM desde PowerShell para validar). Para editar imágenes sirve C# con `System.Drawing` vía `Add-Type`, corriéndolo con `powershell.exe` (5.1), no con PowerShell 7; ver [chats/2026-10-13-imagen-tarifario-venezuela-sin-destinos.md](chats/2026-10-13-imagen-tarifario-venezuela-sin-destinos.md). Git está en `C:\Program Files\Git\cmd` (agregarlo al PATH vía `$env:ProgramFiles`). `[datos]`
 - Toda consulta sobre procesos de Softur/Serenity se responde leyendo primero el repo Softur.Serenity (hacer `git pull` antes). Ese repo es sólo lectura salvo pedido explícito. La regla vive también en `../CLAUDE.md` para que se cargue en cada chat. `[decisión]`
 - Acceso al TFS: autenticación NTLM con cuentas locales del servidor; el usuario se escribe `WIN-5B77K21K4NL\<usuario>`. Git 2.5x trae NTLM deshabilitado: se habilitó sólo para ese host con `git config --global http.http://tfs.softur.com.ar:8080.allowNTLMAuth true`. Ver [chats/2026-10-09-acceso-tfs-softur-serenity.md](chats/2026-10-09-acceso-tfs-softur-serenity.md). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
@@ -49,3 +49,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Plan de cuentas genérico (sin ciudades, bancos ni referencias a Bolivia) | [chats/2026-10-08-plan-de-cuentas-sin-ciudades-ni-bancos.md](chats/2026-10-08-plan-de-cuentas-sin-ciudades-ni-bancos.md) |
 | Plan de cuentas: términos tributarios y laborales genéricos | [chats/2026-10-08-plan-de-cuentas-terminos-tributarios-genericos.md](chats/2026-10-08-plan-de-cuentas-terminos-tributarios-genericos.md) |
 | Acceso al TFS y clonado de Softur.Serenity; regla de consultar ese repo | [chats/2026-10-09-acceso-tfs-softur-serenity.md](chats/2026-10-09-acceso-tfs-softur-serenity.md) |
+| Portada tarifario Venezuela sin rótulos de destinos (edición de imagen) | [chats/2026-10-13-imagen-tarifario-venezuela-sin-destinos.md](chats/2026-10-13-imagen-tarifario-venezuela-sin-destinos.md) |
