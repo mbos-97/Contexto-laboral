@@ -1,6 +1,6 @@
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-13
+**Última consolidación:** 2026-10-14
 
 ## 1. Cómo leer esta memoria
 
@@ -37,6 +37,9 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Para generar o revisar documentos en esta PC (sin Python, Node, pandoc ni poppler): Word está instalado y se usa por COM para exportar a PDF; un PDF se pasa a PNG con `Windows.Data.Pdf` (WinRT) desde `powershell.exe` 5.1; un .docx nuevo se arma escribiendo el OOXML y empaquetando con `System.IO.Compression`. `[datos]`
 - ~~Asiento de liquidación de reserva (LIQ): Haber ingreso por la utilidad.~~ (histórico desde 2026-10-13, ver [chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio-parte-6.md](chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio-parte-6.md))
 - Asiento de liquidación de reserva (LIQ): es de previsión y no toca resultados. Debe deudor por la venta; Haber cuentas transitorias de pasivo, una por tipo de servicio y por la venta total del servicio (sin separar costo y margen; ver [parte 7](chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio-parte-7.md)). Sólo los fees de intermediación van directo a ganancias; el resto de los resultados se toma al cargar los comprobantes que netean las previsiones. `[decisión]` Si cambia el precio, el sistema no asienta la diferencia: genera un RLQ espejo del LIQ original y un LIQ nuevo con los valores vigentes. Ver [chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio.md](chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio.md). `[código]`
+- Para compartir una presentación con un cliente sin que la modifique: mandar PDF con marca de agua o un PPT donde cada diapositiva es una imagen (PowerPoint por COM). "Marcar como final" no protege. Ver [chats/2026-10-14-marca-de-agua-ppt-esquema-contable-itraffic.md](chats/2026-10-14-marca-de-agua-ppt-esquema-contable-itraffic.md). `[datos]`
+- Itinerario dinámico (IT Total): lo que define el cliente (logo, imagen, textos, colores, nombres de secciones, íconos, contacto, redes, WhatsApp) se pide en el comprobante de alta; lo demás sale de iTraffic: datos de la reserva, textos del servicio "Título IT" / "Detalle IT" (`config` `ITNAME`/`ITVOUC`) y banners de `Configuraciones > BannerPage` con página `PRO1` (Información útil) y `PRO2` (Tours opcionales). Se abre desde la reserva con el informe "IT: Total" (`Rva_itxfull`). Ver [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca.md). `[código]`
+- En scripts de PowerShell no nombrar funciones `R` ni `CP` (chocan con los alias Invoke-History y Copy-Item). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
@@ -67,3 +70,5 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Asiento LIQ manual en Caracol: reversión y asiento nuevo por 3.900 (vigente) | [chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio-parte-8.md](chats/2026-10-13-asiento-liq-rlq-manual-reserva-cambio-de-precio-parte-8.md) |
 | Asientos de recibo y factura de venta sobre una reserva con previsión (la factura debita las transitorias, no CLIENTES) | [chats/2026-10-13-asientos-recibo-y-factura-sobre-previsiones.md](chats/2026-10-13-asientos-recibo-y-factura-sobre-previsiones.md) |
 | Reporte HTML con formato de asientos para la reserva de prueba | [chats/2026-10-13-asientos-reserva-prueba-formato-reporte.md](chats/2026-10-13-asientos-reserva-prueba-formato-reporte.md) |
+| Marca de agua y versión no editable (PDF / PPT de imágenes) del esquema contable iTRAFFIC | [chats/2026-10-14-marca-de-agua-ppt-esquema-contable-itraffic.md](chats/2026-10-14-marca-de-agua-ppt-esquema-contable-itraffic.md) |
+| Comprobante de alta del Itinerario dinámico IT Total con marca Softur (cliente vs. iTraffic) | [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca.md) |
