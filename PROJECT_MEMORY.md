@@ -73,4 +73,5 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Reporte HTML con formato de asientos para la reserva de prueba | [chats/2026-10-13-asientos-reserva-prueba-formato-reporte.md](chats/2026-10-13-asientos-reserva-prueba-formato-reporte.md) |
 | Marca de agua y versión no editable (PDF / PPT de imágenes) del esquema contable iTRAFFIC | [chats/2026-10-14-marca-de-agua-ppt-esquema-contable-itraffic.md](chats/2026-10-14-marca-de-agua-ppt-esquema-contable-itraffic.md) |
 | Comprobante de alta del Itinerario dinámico IT Total con marca Softur (cliente vs. iTraffic) | [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca.md) |
+| Comprobante de alta del Itinerario dinámico: sin el mapa del itinerario (7 páginas, vigente) | [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-2.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-2.md) |
 | Carpeta de entregables para todos los documentos generados | [chats/2026-10-14-carpeta-entregables.md](chats/2026-10-14-carpeta-entregables.md) |
