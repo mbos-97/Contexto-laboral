@@ -1,6 +1,6 @@
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-14
+**Última consolidación:** 2026-10-15
 
 ## 1. Cómo leer esta memoria
 
@@ -42,12 +42,14 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Comprobantes de alta: siempre llevan las capturas del producto con números de referencia, que son la guía del cliente para cada punto. Ver [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-3.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-3.md). `[decisión]`
 - Todo documento generado se guarda en `Trabajo/Entregables` (regla también en `../CLAUDE.md`). Ver [chats/2026-10-14-carpeta-entregables.md](chats/2026-10-14-carpeta-entregables.md). `[decisión]`
 - En scripts de PowerShell no nombrar funciones `R` ni `CP` (chocan con los alias Invoke-History y Copy-Item). `[datos]`
+- Circuito iTraffic para receptivos (Cuenca del Plata): la tarifa de servicio lleva sólo precio de venta por prioridad de cliente (`Listaprecio` del cliente, varias separadas por guion; vacía = ve todas); el costo se define en el planning de la Ficha Operativa, que lo reparte por pasajeros (costo total ÷ base pax del planning × pax del servicio) y genera la autorización de pago al operador; los costos extras van como adicionales del planning. Operador = cuenta corriente; prestador = quien da el servicio, siempre asociado a un operador. Ver [chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md](chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md). `[código]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
 - [ ] Completar proyecto principal, stack y repos de código involucrados.
 - [ ] Registrar reglas laborales ya conocidas (formatos de propuesta, circuito de pedidos técnicos, aprobaciones, etc.).
+- [ ] Cuenca del Plata: confirmar responsables de las etapas administrativas (04–10) y la tabla de prioridades de clientes.
 
 ## 5. Índice de memorias
 
@@ -77,3 +79,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Comprobante de alta del Itinerario dinámico: vuelven las imágenes con referencias, sin tabla (vigente) | [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-3.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-3.md) |
 | Comprobante de alta del Itinerario dinámico: sin el mapa del itinerario | [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-2.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-2.md) |
 | Carpeta de entregables para todos los documentos generados | [chats/2026-10-14-carpeta-entregables.md](chats/2026-10-14-carpeta-entregables.md) |
+| Circuito operativo iTraffic para Cuenca del Plata: maestros mínimos, ficha operativa, costeo y responsables por etapa | [chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md](chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md) |
