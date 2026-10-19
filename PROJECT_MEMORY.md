@@ -1,6 +1,6 @@
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-16
+**Última consolidación:** 2026-10-19
 
 ## 1. Cómo leer esta memoria
 
@@ -46,6 +46,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Todo documento generado se guarda en `Trabajo/Entregables` (regla también en `../CLAUDE.md`). Ver [chats/2026-10-14-carpeta-entregables.md](chats/2026-10-14-carpeta-entregables.md). `[decisión]`
 - En scripts de PowerShell no nombrar funciones `R` ni `CP` (chocan con los alias Invoke-History y Copy-Item). `[datos]`
 - Circuito iTraffic para receptivos (Cuenca del Plata): la tarifa de servicio lleva sólo precio de venta por prioridad de cliente (`Listaprecio` del cliente, varias separadas por guion; vacía = ve todas); el costo se define en el planning de la Ficha Operativa, que lo reparte por pasajeros (costo total ÷ base pax del planning × pax del servicio) y genera la autorización de pago al operador; los costos extras van como adicionales del planning. Operador = cuenta corriente; prestador = quien da el servicio, siempre asociado a un operador. Ver [chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md](chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md). `[código]`
+- Desdoble (Ficha Operativa): agrupa servicios seleccionados de la ficha y agrega a cada reserva una línea operativa extra (acercamiento, IN/OUT u otro móvil) con costo y venta en 0, sin tocar el servicio vendido. Tipos `TDLE`: IN, OUT, IN OUT, DESDOBLE, DESDOBLE C/SEP PAX (sólo este permite elegir cantidad de pax); estados `EDLE`: Planificado, Aplicado, Cancelado. Con IN/OUT y lugar de acercamiento cambia el destino/origen del servicio original (se restaura al quitarlo). Ver [chats/2026-10-19-desdobles-ficha-operativa.md](chats/2026-10-19-desdobles-ficha-operativa.md). `[código]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
@@ -87,3 +88,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Comprobante de alta del Itinerario dinámico AI (IT Total cotización/reserva) con marca Softur | [chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca.md](chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca.md) |
 | Alta Itinerario Day by Day (AI) para Destinos Australes: puntos 1 a 10 y apartado General | [chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-2.md](chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-2.md) |
 | Alta Itinerario Day by Day - Destinos Australes: archivo renombrado (vigente) | [chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-3.md](chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-3.md) |
+| Desdobles en la Ficha Operativa: para qué sirven, tipos, estados y cómo se cargan | [chats/2026-10-19-desdobles-ficha-operativa.md](chats/2026-10-19-desdobles-ficha-operativa.md) |
