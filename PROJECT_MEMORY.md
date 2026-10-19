@@ -1,3 +1,4 @@
+| Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
 **Última consolidación:** 2026-10-19
@@ -47,10 +48,14 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - En scripts de PowerShell no nombrar funciones `R` ni `CP` (chocan con los alias Invoke-History y Copy-Item). `[datos]`
 - Circuito iTraffic para receptivos (Cuenca del Plata): la tarifa de servicio lleva sólo precio de venta por prioridad de cliente (`Listaprecio` del cliente, varias separadas por guion; vacía = ve todas); el costo se define en el planning de la Ficha Operativa, que lo reparte por pasajeros (costo total ÷ base pax del planning × pax del servicio) y genera la autorización de pago al operador; los costos extras van como adicionales del planning. Operador = cuenta corriente; prestador = quien da el servicio, siempre asociado a un operador. Ver [chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md](chats/2026-10-15-circuito-operativo-itraffic-cuenca-del-plata.md). `[código]`
 - Desdoble (Ficha Operativa): agrupa servicios seleccionados de la ficha y agrega a cada reserva una línea operativa extra (acercamiento, IN/OUT u otro móvil) con costo y venta en 0, sin tocar el servicio vendido. Tipos `TDLE`: IN, OUT, IN OUT, DESDOBLE, DESDOBLE C/SEP PAX (sólo este permite elegir cantidad de pax); estados `EDLE`: Planificado, Aplicado, Cancelado. Con IN/OUT y lugar de acercamiento cambia el destino/origen del servicio original (se restaura al quitarlo). Ver [chats/2026-10-19-desdobles-ficha-operativa.md](chats/2026-10-19-desdobles-ficha-operativa.md). `[código]`
+- Capturas de pantallas de iTraffic en alta resolución: el panel del navegador integrado es chico; se arma una maqueta HTML con las hojas de estilo del propio Serenity (`<base href>` al sitio) y se renderiza con Edge headless (`--force-device-scale-factor=2 --virtual-time-budget=8000 --screenshot`). Sirve también para mostrar pantallas que todavía no existen (lo nuevo en naranja con etiqueta "NUEVO"). Entorno de prueba: iTraffic Caracol test. Ver [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md). `[datos]`
+- Marpatag / Amex — propuesta **PaxDirect**: solapa "Beneficios Corporativos" en el cliente (% por tipo de producto TR/HO/SE/EV/PA), tilde "Cobro y facturación al pasajero" en la reserva, y al guardar un ítem de beneficio con operador Amex (venta 0, costo = beneficio). La reserva queda a nombre de Amex. Pendiente validación del cliente. Ver [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md). `[decisión]`
+- En scripts de PowerShell tampoco usar funciones `H` (alias de Get-History) ni la variable `$pid`. `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
+- [ ] Marpatag: validar los 5 puntos de la propuesta PaxDirect y estimar horas.
 - [ ] Completar proyecto principal, stack y repos de código involucrados.
 - [ ] Registrar reglas laborales ya conocidas (formatos de propuesta, circuito de pedidos técnicos, aprobaciones, etc.).
 - [ ] Cuenca del Plata: confirmar responsables de las etapas administrativas (04–10) y la tabla de prioridades de clientes.
