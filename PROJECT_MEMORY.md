@@ -57,10 +57,12 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Zambra Tours — propuesta **Venta Minorista Free Lance** (mismo desarrollo que PaxDirect): cada free lance es cliente y operador con la solapa "Beneficios Corporativos" (eventuales aéreos, hoteles, traslados, paquetes); reserva minorista a nombre del free lance o, si es venta directa, del cliente genérico CONSUMIDOR FINAL MINORISTA (con sus propias reglas en la solapa), con el tilde; ítem de comisión con el free lance como operador. Tipo de reserva minorista ya creado. USD 400 + IVA, 50/50, 40 días desde el anticipo. Ver [chats/2026-10-19-propuesta-venta-minorista-free-lance-zambra.md](chats/2026-10-19-propuesta-venta-minorista-free-lance-zambra.md). `[decisión]`
 - Para leer un PDF en esta PC: renderizar las páginas a PNG con `Windows.Data.Pdf` (abrirlo con Word por COM se cuelga). `[datos]`
 - En scripts de PowerShell tampoco usar funciones `H` (alias de Get-History) ni la variable `$pid`. `[datos]`
+- Facturación electrónica Uruguay (DGI): el cliente completa el formulario "Configuracion Facturacion Electronica Uruguay DGI (marca Softur).docx" (RUC, razón social, domicilio fiscal, departamento, ciudad, correo, sucursal, certificado .pfx + clave por canal separado, resolución DGI, URL del comercio y un CAE por tipo: e-Factura, NC e-Factura, e-Ticket, NC e-Ticket). Los CAE se piden en servicios.dgi.gub.uy/serviciosenlinea › Constancias › "Autorización Impresión Documentación - Solicitud". Ver [chats/2026-10-19-formulario-facturacion-electronica-uruguay-dgi.md](chats/2026-10-19-formulario-facturacion-electronica-uruguay-dgi.md). `[decisión]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
+- [ ] Facturación electrónica UY: validar con implementación los códigos de CFE precargados y si falta algún dato técnico del formulario.
 - [ ] Zambra: enviar la propuesta Venta Minorista Free Lance (USD 400 + IVA).
 - [ ] Marpatag: enviar la propuesta PaxDirect v2 (USD 1.400 + IVA) y seguir la aprobación.
 - [ ] Completar proyecto principal, stack y repos de código involucrados.
@@ -101,3 +103,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Alta Itinerario Day by Day (AI) para Destinos Australes: puntos 1 a 10 y apartado General | [chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-2.md](chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-2.md) |
 | Alta Itinerario Day by Day - Destinos Australes: archivo renombrado (vigente) | [chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-3.md](chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca-parte-3.md) |
 | Desdobles en la Ficha Operativa: para qué sirven, tipos, estados y cómo se cargan | [chats/2026-10-19-desdobles-ficha-operativa.md](chats/2026-10-19-desdobles-ficha-operativa.md) |
+| Formulario de configuración de facturación electrónica Uruguay (DGI) con marca Softur | [chats/2026-10-19-formulario-facturacion-electronica-uruguay-dgi.md](chats/2026-10-19-formulario-facturacion-electronica-uruguay-dgi.md) |
