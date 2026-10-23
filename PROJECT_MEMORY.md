@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-19
+**Última consolidación:** 2026-10-23
 
 ## 1. Cómo leer esta memoria
 
@@ -48,6 +48,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Itinerario dinámico AI (`Travel.Itinerary.AI`, vista `itxcotfull`, informes "IT:Total" de cotización y reserva): el cliente envía portada y textos fijos (comentarios, notas de cancelación, presentación del destino, cierre, términos, política de pago, pie), nombre, idiomas y estilo; iTraffic aporta datos de la cotización/reserva, tabla de cancelación (`det_rvapolclx`), textos y fotos de servicios. Ver [chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca.md](chats/2026-10-16-alta-itinerario-dinamico-ai-it-total-con-marca.md). `[código]`
 - Itinerario AI de vouchers (`typeview=itxvoucher`): lo sirve la app aparte `Travel.Itinerary.AI` (su código no está en Serenity); en Serenity es el informe web de reserva `Rva_itxvoucheraliwen` ("IT:Vouchers") en `Informesweb`, con la URL `.../itinerary?typeview=itxvoucher&budget=0&id={id}` (sin precios). Ver [chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia.md](chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia.md). `[código]`
 - Banners del itinerario (`BannerPage` / SP `BannerPage_Select`): se filtran por página (`PRO1`, `PRO2`), tipo de servicio, ciudad destino y cliente (`BANNERPAGEXCLIENTE`); no por reserva (recibe `@idreserva` pero no lo usa). Mostrar opcionales elegidos por reserva (campo "Código de opcionales") es desarrollo a medida en Serenity + app del itinerario. Ver [chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia-parte-2.md](chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia-parte-2.md). `[código]`
+- Nota de crédito de venta: es `Factura` con `Tipo_comp = 'N/C'` y usa los mismos SP de asiento que la factura; `Comprob.Suma_ccc` (FAC 1, N/C 0) invierte debe y haber, así que el asiento es el espejo de la factura con las mismas cuentas y netea por saldo de cuenta (no referencia a la factura). Ver [chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md](chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md). `[código]`
 - Capturas de referencia de los comprobantes de alta: recuadro naranja con número = envía el cliente; recuadro negro con letra = sale de iTraffic. Se dibujan con C# `System.Drawing` desde `powershell.exe` 5.1. `[decisión]`
 - Comprobantes de alta: siempre llevan las capturas del producto con números de referencia, que son la guía del cliente para cada punto. Ver [chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-3.md](chats/2026-10-14-alta-itinerario-dinamico-it-total-con-marca-parte-3.md). `[decisión]`
 - Todo documento generado se guarda en `Trabajo/Entregables` (regla también en `../CLAUDE.md`). Ver [chats/2026-10-14-carpeta-entregables.md](chats/2026-10-14-carpeta-entregables.md). `[decisión]`
@@ -109,3 +110,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Formulario de configuración de facturación electrónica Uruguay (DGI) con marca Softur | [chats/2026-10-19-formulario-facturacion-electronica-uruguay-dgi.md](chats/2026-10-19-formulario-facturacion-electronica-uruguay-dgi.md) |
 | Itinerario "IT: Vouchers" AI de Latitud Ushuaia: qué muestra y dónde está en Serenity (`Rva_itxvoucheraliwen`) | [chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia.md](chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia.md) |
 | Itinerario AI: factibilidad de opcionales por reserva (campo "Código de opcionales" + banner PRO2) | [chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia-parte-2.md](chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia-parte-2.md) |
+| Asiento de la nota de crédito de venta (espejo de la factura vía `Comprob.Suma_ccc`) y neteo | [chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md](chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md) |
