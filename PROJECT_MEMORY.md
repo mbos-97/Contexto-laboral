@@ -71,6 +71,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - [ ] Marpatag: enviar la propuesta PaxDirect v2 (USD 1.400 + IVA) y seguir la aprobación.
 - [ ] Latitud Ushuaia: definir alcance del campo "Código de opcionales" y pedir estimación a desarrollo.
 - [ ] Probar N/C sobre reserva con LIQ (y reserva CM: posible bloqueo por error 52114).
+- [ ] Cliente plan de cuentas: revisar la reserva donde la N/C no bajó el ingreso (799,10) y evaluar cuenta puente "saldos a imputar".
 - [ ] Completar proyecto principal, stack y repos de código involucrados.
 - [ ] Registrar reglas laborales ya conocidas (formatos de propuesta, circuito de pedidos técnicos, aprobaciones, etc.).
 - [ ] Cuenca del Plata: confirmar responsables de las etapas administrativas (04–10) y la tabla de prioridades de clientes.
@@ -114,3 +115,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Itinerario AI: factibilidad de opcionales por reserva (campo "Código de opcionales" + banner PRO2) | [chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia-parte-2.md](chats/2026-10-19-itinerario-voucher-ai-latitud-ushuaia-parte-2.md) |
 | Asiento de la nota de crédito de venta (espejo de la factura vía `Comprob.Suma_ccc`) y neteo | [chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md](chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md) |
 | N/C con asientos desde la liquidación: transitoria IFR/CMF, reemplazo de deudores y cierre con RLQ | [chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta-parte-2.md](chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta-parte-2.md) |
+| Respuesta a cliente: N/C que no bajó el ingreso y pedido de cuenta puente "saldos a imputar" | [chats/2026-10-23-respuesta-cliente-nc-cuenta-puente.md](chats/2026-10-23-respuesta-cliente-nc-cuenta-puente.md) |
