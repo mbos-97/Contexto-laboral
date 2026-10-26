@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-23
+**Última consolidación:** 2026-10-26
 
 ## 1. Cómo leer esta memoria
 
@@ -75,6 +75,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - [ ] Completar proyecto principal, stack y repos de código involucrados.
 - [ ] Registrar reglas laborales ya conocidas (formatos de propuesta, circuito de pedidos técnicos, aprobaciones, etc.).
 - [ ] Cuenca del Plata: confirmar responsables de las etapas administrativas (04–10) y la tabla de prioridades de clientes.
+- [ ] Cuenca del Plata: la minuta de relevamiento ("Minuta de relevamiento - Cuenca del Plata (marca Softur).docx") es un documento vivo, una sección por sector (01 Tesorería); sumar los próximos sectores. Objetivos de Tesorería (semana del 26/10): pagar sólo autorizaciones de pago y generar devoluciones desde el sistema. Ver [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria.md).
 
 ## 5. Índice de memorias
 
@@ -116,3 +117,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Asiento de la nota de crédito de venta (espejo de la factura vía `Comprob.Suma_ccc`) y neteo | [chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md](chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta.md) |
 | N/C con asientos desde la liquidación: transitoria IFR/CMF, reemplazo de deudores y cierre con RLQ | [chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta-parte-2.md](chats/2026-10-23-asiento-nota-de-credito-vs-factura-venta-parte-2.md) |
 | Respuesta a cliente: N/C que no bajó el ingreso y pedido de cuenta puente "saldos a imputar" | [chats/2026-10-23-respuesta-cliente-nc-cuenta-puente.md](chats/2026-10-23-respuesta-cliente-nc-cuenta-puente.md) |
+| Minuta de relevamiento Cuenca del Plata con marca Softur: sector Tesorería (documento vivo por sectores) | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria.md) |
