@@ -75,7 +75,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - [ ] Completar proyecto principal, stack y repos de código involucrados.
 - [ ] Registrar reglas laborales ya conocidas (formatos de propuesta, circuito de pedidos técnicos, aprobaciones, etc.).
 - [ ] Cuenca del Plata: confirmar responsables de las etapas administrativas (04–10) y la tabla de prioridades de clientes.
-- [ ] Cuenca del Plata: arrancar la implementación por sector con la "Minuta de relevamiento - Cuenca del Plata (marca Softur).docx" (Reservas, Operaciones, Proveedores, Tesorería, Administración) y confirmar los puntos abiertos de la sección 06, sobre todo quién carga el costo de los servicios de terceros (Operaciones o Comercial). Ver [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-2.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-2.md).
+- [ ] Cuenca del Plata: la implementación arranca el 2026-10-27 con el circuito cruzado Operaciones → Proveedores → Tesorería (sección 01 de la "Minuta de relevamiento - Cuenca del Plata (marca Softur) v2.docx"); Reservas y Administración después. Antes, definir quién carga el costo de los servicios de terceros (Operaciones o Comercial). Ver [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-3.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-3.md).
 
 ## 5. Índice de memorias
 
@@ -119,3 +119,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Respuesta a cliente: N/C que no bajó el ingreso y pedido de cuenta puente "saldos a imputar" | [chats/2026-10-23-respuesta-cliente-nc-cuenta-puente.md](chats/2026-10-23-respuesta-cliente-nc-cuenta-puente.md) |
 | Minuta de relevamiento Cuenca del Plata con marca Softur: sector Tesorería (documento vivo por sectores) | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria.md) |
 | Minuta Cuenca del Plata completa, ordenada por sector (hoy / problemáticas / objetivos) para implementar | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-2.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-2.md) |
+| Minuta Cuenca del Plata: arranque 27/10 con el circuito cruzado Operaciones, Proveedores y Tesorería al principio | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-3.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-3.md) |
