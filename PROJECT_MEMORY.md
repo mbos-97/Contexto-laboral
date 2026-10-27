@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-10-26
+**Última consolidación:** 2026-10-27
 
 ## 1. Cómo leer esta memoria
 
@@ -77,6 +77,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - [ ] Registrar reglas laborales ya conocidas (formatos de propuesta, circuito de pedidos técnicos, aprobaciones, etc.).
 - [ ] Cuenca del Plata: confirmar responsables de las etapas administrativas (04–10) y la tabla de prioridades de clientes.
 - [ ] Cuenca del Plata: la implementación arranca el 2026-10-27 con el circuito cruzado Operaciones → Proveedores → Tesorería (sección 01 de la "Minuta de relevamiento - Cuenca del Plata (marca Softur) v3.docx"), con Transportes SaaS como un operador más que le factura a Cuenca del Plata (su costeo por matrícula se hace en su propia base, fuera de esta implementación); Reservas y Administración después. Antes, definir quién carga el costo de terceros. Ver [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-6.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-6.md).
+- [ ] Cuenca del Plata: documento "Nuevo proceso por sector - Cuenca del Plata (marca Softur).docx" (un sector por página: funciones, problemáticas, objetivos y nuevo proceso con responsable). Cerrar sus 7 puntos a confirmar, sobre todo quién costea a terceros y quién asigna guías. Ver [chats/2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata.md](chats/2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata.md).
 
 ## 5. Índice de memorias
 
@@ -124,3 +125,4 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Minuta Cuenca del Plata: Cuenca del Plata SaaS como operador de transporte; la autorización de pago del planning sale al operador del prestador del servicio de costo | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-4.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-4.md) |
 | ~~Minuta Cuenca del Plata: transporte SaaS costeado por matrícula desde la base de SaaS (desarrollo a definir)~~ (histórico desde 2026-10-26, ver parte-6) | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-5.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-5.md) |
 | Minuta Cuenca del Plata: Transportes SaaS es un operador más en la base de Cuenca del Plata; su costeo por matrícula queda fuera (otra base) | [chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-6.md](chats/2026-10-26-minuta-relevamiento-cuenca-del-plata-tesoreria-parte-6.md) |
+| Nuevo proceso por sector Cuenca del Plata: funciones, problemáticas, objetivos y nuevo proceso con responsable, un sector por página | [chats/2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata.md](chats/2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata.md) |
