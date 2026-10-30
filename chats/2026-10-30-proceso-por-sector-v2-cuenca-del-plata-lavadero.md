@@ -2,7 +2,7 @@
 
 - **Fecha:** 2026-10-30
 - **Proyecto / cliente:** Softur — implementación iTraffic, cliente Cuenca del Plata
-- **Actualiza a:** [2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata-parte-3.md](2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata-parte-3.md)
+- **Actualiza a:** [2026-10-29-proceso-por-sector-v2-cuenca-del-plata-parte-4.md](2026-10-29-proceso-por-sector-v2-cuenca-del-plata-parte-4.md) (versión de la usuaria; antes: [2026-10-27-...-parte-3](2026-10-27-nuevo-proceso-por-sector-cuenca-del-plata-parte-3.md))
 
 ## Objetivo
 Integrar al proceso de proveedores unas notas que la usuaria agregó al final de su Word: VTV y lavadero de vehículos con orden de compra, foto por lavado y proveedor con cuenta corriente.
