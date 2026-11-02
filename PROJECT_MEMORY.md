@@ -93,6 +93,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Manual de Servicio online: sin dirección de referencia ni párrafo sobre seguridad y emulación (vigente) | [chats/2026-11-02-manual-servicio-online-marca-softur-parte-3.md](chats/2026-11-02-manual-servicio-online-marca-softur-parte-3.md) |
 | Manual de Servicio online: términos generalizados (`FacturaFiscal`, Documento de identidad, Identificación tributaria) | [chats/2026-11-02-manual-servicio-online-marca-softur-parte-2.md](chats/2026-11-02-manual-servicio-online-marca-softur-parte-2.md) |
 | Manual de Servicio online con marca Softur y sin datos de cliente (webservices de consulta, pago, anulación y reverso) | [chats/2026-11-02-manual-servicio-online-marca-softur.md](chats/2026-11-02-manual-servicio-online-marca-softur.md) |
 | Validación del circuito de precompra de entradas: asientos invertidos, autorización real sin OP; circuito corregido (Anticipo entradas contra banco el día 1) | [chats/2026-10-30-validacion-circuito-precompra-entradas.md](chats/2026-10-30-validacion-circuito-precompra-entradas.md) |
