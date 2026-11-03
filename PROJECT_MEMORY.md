@@ -102,6 +102,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Liquidación detallada Intercity v2: sin columnas de precios por servicio | [chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md](chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md) |
 | Liquidación detallada Intercity: copia en PDF con desglose de comisión en el recuadro de totales (diferencia de 0,01 a confirmar) | [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md) |
 | Set de pruebas WS Bridge Prestigio v2: encabezado en banda negra de borde a borde | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md) |
 | Set de pruebas WS Bridge Prestigio: claves y pasajeros quedan sin enmascarar | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md) |
