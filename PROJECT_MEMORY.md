@@ -106,6 +106,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Notas de reunión del portal de agencias Eurovips: pantallas revisadas; la minuta la arma la usuaria | [chats/2026-11-03-notas-reunion-portal-agencias-eurovips.md](chats/2026-11-03-notas-reunion-portal-agencias-eurovips.md) |
 | Set de pruebas WS Bridge Avioa con marca Softur y aviso de entorno de test (actualizado al 15/10) en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md) |
 | Liquidación detallada Intercity v2: sin columnas de precios por servicio | [chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md](chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md) |
 | Liquidación detallada Intercity: copia en PDF con desglose de comisión en el recuadro de totales (diferencia de 0,01 a confirmar) | [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md) |
