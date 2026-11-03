@@ -77,6 +77,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Word por COM: si `ExportAsFixedFormat` se cuelga, exportar con `SaveAs2([string]$pdf, 17)`. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md). `[datos]`
 - Para pasar un Word a la marca Softur: reutilizar como paquete una propuesta ya armada (estilos, fuentes embebidas, logo, encabezado y pie) y reemplazar el cuerpo. Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md). `[datos]`
 - Encabezado de páginas interiores en documentos Softur: banda Tinta de borde a borde con el logo a la derecha, no el recuadro negro chico (tabla de 11906 dxa con sangría -1080, encabezado en 0, margen superior 1300). Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md). `[decisión]`
+- Para editar el texto de un PDF con fuentes estándar: Perl de Git Bash (`Compress::Zlib`) descomprime y reescribe el contenido de la página y recalcula la tabla xref; se revisa renderizando con `Windows.Data.Pdf`. Ver [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
@@ -101,6 +102,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Liquidación detallada Intercity: copia en PDF con desglose de comisión en el recuadro de totales (diferencia de 0,01 a confirmar) | [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md) |
 | Set de pruebas WS Bridge Prestigio v2: encabezado en banda negra de borde a borde | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md) |
 | Set de pruebas WS Bridge Prestigio: claves y pasajeros quedan sin enmascarar | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md) |
 | Set de pruebas WS Bridge Prestigio con marca Softur y aviso de entorno de test en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md) |
