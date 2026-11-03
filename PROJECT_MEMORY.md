@@ -82,6 +82,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 ## 4. Pendientes
 
+- [ ] Set de pruebas WS Bridge Avioa: revisar los datos de la matriz antes de compartir (Rochester no aparece en los RS, importe en COP, reserva 30137 cancelada). Ver [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md).
 - [ ] Set de pruebas WS Bridge Prestigio: confirmar nombre de la base de test y endpoint (claves y pasajeros quedan sin enmascarar). Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md).
 - [ ] TODO WAY VIAJES: definir el valor de la hora adicional y confirmar migración de datos y WhatsApp de soporte antes de enviar la propuesta v2. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md).
 - [ ] Tolkeyen: probar la descarga con el botón antes de enviar el comprobante. Ver [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md).
@@ -105,6 +106,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Set de pruebas WS Bridge Avioa con marca Softur y aviso de entorno de test (actualizado al 15/10) en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md) |
 | Liquidación detallada Intercity v2: sin columnas de precios por servicio | [chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md](chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md) |
 | Liquidación detallada Intercity: copia en PDF con desglose de comisión en el recuadro de totales (diferencia de 0,01 a confirmar) | [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md) |
 | Set de pruebas WS Bridge Prestigio v2: encabezado en banda negra de borde a borde | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md) |
