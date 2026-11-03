@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-11-02
+**Última consolidación:** 2026-11-03
 
 ## 1. Cómo leer esta memoria
 
@@ -74,10 +74,12 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Para un manual reutilizable, "Softur" es el nombre genérico que reemplaza a cliente y terceros, y también se generalizan los términos que delatan el país, aunque sean nombres de campos técnicos (`FacturaDGI` → `FacturaFiscal`); se avisa la diferencia con el campo real. Ver [chats/2026-11-02-manual-servicio-online-marca-softur-parte-2.md](chats/2026-11-02-manual-servicio-online-marca-softur-parte-2.md). `[decisión]`
 - Descarga múltiple de facturas (Clientes / Facturas): se activa con la config `FACTURADESCARGAMULTIPLE` (columna de tildes y botón "Descargar PDF seleccionados", sólo emitidas, un archivo por factura). El nombre lo arma `DownloadPdf` en `FacturaEndpoint.cs`: `Tipo_comp_Tipo_fact_Nro_fact_Agencia_dd-MM-yyyy.pdf` (`FACTURAPDFTIPOABREVIADO` abrevia el tipo). Es compartido por todas las instalaciones que usan la config. Ver [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md). `[código]`
 - Comprobantes de entrega: portada con encabezado "Comprobante de aceptación de requerimiento", título, datos del cliente y el texto estándar de aceptación (literal en [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md)); después, "Esquema funcional" con captura numerada y lo que haya que tener en cuenta. No lleva cuadro de pedido vs. entregado ni bloque de firmas. `[decisión]`
+- Word por COM: si `ExportAsFixedFormat` se cuelga, exportar con `SaveAs2([string]$pdf, 17)`. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
+- [ ] TODO WAY VIAJES: definir el valor de la hora adicional y confirmar migración de datos y WhatsApp de soporte antes de enviar la propuesta v2. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md).
 - [ ] Tolkeyen: probar la descarga con el botón antes de enviar el comprobante. Ver [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md).
 - [ ] Facturación electrónica UY: validar con implementación los códigos de CFE precargados y si falta algún dato técnico del formulario.
 - [ ] Zambra: enviar la propuesta Venta Minorista Free Lance (USD 400 + IVA).
@@ -96,6 +98,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Propuesta comercial TODO WAY VIAJES reformulada (6 páginas, Inversión y Forma de pago juntas); falta el valor de la hora adicional | [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md) |
 | Comprobante de entrega Tolkeyen, versión final (2 páginas); formato y texto de aceptación para próximos comprobantes | [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md) |
 | Comprobante de entrega de la descarga múltiple de facturas para Tolkeyen; el nombre del PDF difiere del pedido | [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md) |
 | Manual de Servicio online: sin dirección de referencia ni párrafo sobre seguridad y emulación (vigente) | [chats/2026-11-02-manual-servicio-online-marca-softur-parte-3.md](chats/2026-11-02-manual-servicio-online-marca-softur-parte-3.md) |
