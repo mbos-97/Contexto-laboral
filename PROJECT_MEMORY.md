@@ -75,10 +75,12 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Descarga múltiple de facturas (Clientes / Facturas): se activa con la config `FACTURADESCARGAMULTIPLE` (columna de tildes y botón "Descargar PDF seleccionados", sólo emitidas, un archivo por factura). El nombre lo arma `DownloadPdf` en `FacturaEndpoint.cs`: `Tipo_comp_Tipo_fact_Nro_fact_Agencia_dd-MM-yyyy.pdf` (`FACTURAPDFTIPOABREVIADO` abrevia el tipo). Es compartido por todas las instalaciones que usan la config. Ver [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md). `[código]`
 - Comprobantes de entrega: portada con encabezado "Comprobante de aceptación de requerimiento", título, datos del cliente y el texto estándar de aceptación (literal en [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md)); después, "Esquema funcional" con captura numerada y lo que haya que tener en cuenta. No lleva cuadro de pedido vs. entregado ni bloque de firmas. `[decisión]`
 - Word por COM: si `ExportAsFixedFormat` se cuelga, exportar con `SaveAs2([string]$pdf, 17)`. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md). `[datos]`
+- Para pasar un Word a la marca Softur: reutilizar como paquete una propuesta ya armada (estilos, fuentes embebidas, logo, encabezado y pie) y reemplazar el cuerpo; con margen superior de 1480 dxa el contenido no toca el logo. Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
+- [ ] Set de pruebas WS Bridge Prestigio: decidir si se enmascaran claves y pasajeros antes de compartir, y confirmar nombre de la base de test y endpoint. Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md).
 - [ ] TODO WAY VIAJES: definir el valor de la hora adicional y confirmar migración de datos y WhatsApp de soporte antes de enviar la propuesta v2. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md).
 - [ ] Tolkeyen: probar la descarga con el botón antes de enviar el comprobante. Ver [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md).
 - [ ] Facturación electrónica UY: validar con implementación los códigos de CFE precargados y si falta algún dato técnico del formulario.
@@ -98,6 +100,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Set de pruebas WS Bridge Prestigio con marca Softur y aviso de entorno de test en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md) |
 | Propuesta comercial TODO WAY VIAJES reformulada (6 páginas, Inversión y Forma de pago juntas); falta el valor de la hora adicional | [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md) |
 | Comprobante de entrega Tolkeyen, versión final (2 páginas); formato y texto de aceptación para próximos comprobantes | [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md) |
 | Comprobante de entrega de la descarga múltiple de facturas para Tolkeyen; el nombre del PDF difiere del pedido | [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen.md) |
