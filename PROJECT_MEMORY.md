@@ -80,7 +80,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 ## 4. Pendientes
 
-- [ ] Set de pruebas WS Bridge Prestigio: decidir si se enmascaran claves y pasajeros antes de compartir, y confirmar nombre de la base de test y endpoint. Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md).
+- [ ] Set de pruebas WS Bridge Prestigio: confirmar nombre de la base de test y endpoint (claves y pasajeros quedan sin enmascarar). Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md).
 - [ ] TODO WAY VIAJES: definir el valor de la hora adicional y confirmar migración de datos y WhatsApp de soporte antes de enviar la propuesta v2. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md).
 - [ ] Tolkeyen: probar la descarga con el botón antes de enviar el comprobante. Ver [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md).
 - [ ] Facturación electrónica UY: validar con implementación los códigos de CFE precargados y si falta algún dato técnico del formulario.
@@ -100,6 +100,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Set de pruebas WS Bridge Prestigio: claves y pasajeros quedan sin enmascarar | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md) |
 | Set de pruebas WS Bridge Prestigio con marca Softur y aviso de entorno de test en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md) |
 | Propuesta comercial TODO WAY VIAJES reformulada (6 páginas, Inversión y Forma de pago juntas); falta el valor de la hora adicional | [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md) |
 | Comprobante de entrega Tolkeyen, versión final (2 páginas); formato y texto de aceptación para próximos comprobantes | [chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md](chats/2026-11-02-comprobante-entrega-descarga-multiple-facturas-tolkeyen-parte-2.md) |
