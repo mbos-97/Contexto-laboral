@@ -80,10 +80,12 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Para editar el texto de un PDF con fuentes estándar: Perl de Git Bash (`Compress::Zlib`) descomprime y reescribe el contenido de la página y recalcula la tabla xref; se revisa renderizando con `Windows.Data.Pdf`. Ver [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md). `[datos]`
 - Para pegar una tabla en un mail: HTML con estilos en línea y `Set-Clipboard -AsHtml` desde `powershell.exe` 5.1 con `-STA`; la tabla del chat se deforma al pegarla. Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md). `[datos]`
 - Cliente secundario (`reserva.Cod_agcia2`, solapa Más Datos): con `lfacagciados = .T.` la factura toma CUIT, razón social, dirección, IVA y letra del secundario, pero sigue con `Cod_agcia` del principal (salvo las facturas de recargo que genera el recibo). También lo usan factura electrónica, percepciones RG 4815/5672 y listado de facturas; `LCCMUESTRACLISECUNDARIO` e `INFO1CODAGCIA2` lo muestran en saldos y ficha operativa. Ver [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md). `[código]`
+- Cliente secundario y cuenta corriente: el recibo de la reserva queda a nombre del principal y el saldo se filtra por el principal; el secundario no tiene deuda ni baja su cuenta. Cambiarlo requiere desarrollo en factura, recibo y saldo. Ver [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md). `[código]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
+- [ ] Cliente secundario: definir si se pide a desarrollo que factura, recibo y saldo queden en el secundario. Ver [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md).
 - [ ] Cliente secundario: confirmar con desarrollo la condición de `isp_FacturaValidate` (línea 931), que parece rechazar el tipo de documento 86 también en factura B. Ver [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md).
 - [ ] Eurovips, módulo Cuenta Corriente: puntos 1 a 7 de la minuta a cargo de Softur; Eurovips debe enviar el modelo de descarga Altair y el formato de cuenta corriente (fuera del diseño original). Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md).
 - [ ] Set de pruebas WS Bridge Avioa: revisar los datos de la matriz antes de compartir (Rochester no aparece en los RS, importe en COP, reserva 30137 cancelada). Ver [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md).
@@ -110,6 +112,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Cliente secundario: el recibo y el saldo quedan en el principal; bajar la cuenta del secundario requiere desarrollo | [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md) |
 | Cliente secundario de la reserva: datos fiscales de la factura, recibos, percepciones, listados y configs | [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md) |
 | Minuta de Cuenta Corriente de Eurovips: tabla en HTML copiada al portapapeles para pegar en el mail | [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md) |
 | Minuta de la primera entrega del módulo Cuenta Corriente de Eurovips: puntos 1 a 7 Softur, 8 y 9 pendientes de Eurovips y fuera del diseño original | [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md) |
