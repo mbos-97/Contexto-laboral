@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-11-03
+**Última consolidación:** 2026-11-04
 
 ## 1. Cómo leer esta memoria
 
@@ -82,6 +82,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 ## 4. Pendientes
 
+- [ ] Eurovips, módulo Cuenta Corriente: puntos 1 a 7 de la minuta a cargo de Softur; Eurovips debe enviar el modelo de descarga Altair y el formato de cuenta corriente (fuera del diseño original). Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md).
 - [ ] Set de pruebas WS Bridge Avioa: revisar los datos de la matriz antes de compartir (Rochester no aparece en los RS, importe en COP, reserva 30137 cancelada). Ver [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md).
 - [ ] Set de pruebas WS Bridge Prestigio: confirmar nombre de la base de test y endpoint (claves y pasajeros quedan sin enmascarar). Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-2.md).
 - [ ] TODO WAY VIAJES: definir el valor de la hora adicional y confirmar migración de datos y WhatsApp de soporte antes de enviar la propuesta v2. Ver [chats/2026-11-03-propuesta-comercial-todo-way-viajes.md](chats/2026-11-03-propuesta-comercial-todo-way-viajes.md).
@@ -106,6 +107,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Minuta de la primera entrega del módulo Cuenta Corriente de Eurovips: puntos 1 a 7 Softur, 8 y 9 pendientes de Eurovips y fuera del diseño original | [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md) |
 | Notas de reunión del portal de agencias Eurovips: pantallas revisadas; la minuta la arma la usuaria | [chats/2026-11-03-notas-reunion-portal-agencias-eurovips.md](chats/2026-11-03-notas-reunion-portal-agencias-eurovips.md) |
 | Set de pruebas WS Bridge Avioa con marca Softur y aviso de entorno de test (actualizado al 15/10) en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md) |
 | Liquidación detallada Intercity v2: sin columnas de precios por servicio | [chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md](chats/2026-11-03-liquidacion-desglose-comision-intercity-parte-2.md) |
