@@ -112,6 +112,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Tabla de requerimientos con precios (357537, 358086, 358619, 357919, reporte de cupos, 358356) | [chats/2026-11-04-tabla-requerimientos-precios.md](chats/2026-11-04-tabla-requerimientos-precios.md) |
 | Cliente secundario: el recibo y el saldo quedan en el principal; bajar la cuenta del secundario requiere desarrollo | [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md) |
 | Cliente secundario de la reserva: datos fiscales de la factura, recibos, percepciones, listados y configs | [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md) |
 | Minuta de Cuenta Corriente de Eurovips: tabla en HTML copiada al portapapeles para pegar en el mail | [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md) |
