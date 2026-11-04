@@ -78,6 +78,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Para pasar un Word a la marca Softur: reutilizar como paquete una propuesta ya armada (estilos, fuentes embebidas, logo, encabezado y pie) y reemplazar el cuerpo. Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur.md). `[datos]`
 - Encabezado de páginas interiores en documentos Softur: banda Tinta de borde a borde con el logo a la derecha, no el recuadro negro chico (tabla de 11906 dxa con sangría -1080, encabezado en 0, margen superior 1300). Ver [chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md](chats/2026-11-03-set-pruebas-ws-bridge-prestigio-marca-softur-parte-3.md). `[decisión]`
 - Para editar el texto de un PDF con fuentes estándar: Perl de Git Bash (`Compress::Zlib`) descomprime y reescribe el contenido de la página y recalcula la tabla xref; se revisa renderizando con `Windows.Data.Pdf`. Ver [chats/2026-11-03-liquidacion-desglose-comision-intercity.md](chats/2026-11-03-liquidacion-desglose-comision-intercity.md). `[datos]`
+- Para pegar una tabla en un mail: HTML con estilos en línea y `Set-Clipboard -AsHtml` desde `powershell.exe` 5.1 con `-STA`; la tabla del chat se deforma al pegarla. Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md). `[datos]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
@@ -107,6 +108,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Minuta de Cuenta Corriente de Eurovips: tabla en HTML copiada al portapapeles para pegar en el mail | [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md) |
 | Minuta de la primera entrega del módulo Cuenta Corriente de Eurovips: puntos 1 a 7 Softur, 8 y 9 pendientes de Eurovips y fuera del diseño original | [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md) |
 | Notas de reunión del portal de agencias Eurovips: pantallas revisadas; la minuta la arma la usuaria | [chats/2026-11-03-notas-reunion-portal-agencias-eurovips.md](chats/2026-11-03-notas-reunion-portal-agencias-eurovips.md) |
 | Set de pruebas WS Bridge Avioa con marca Softur y aviso de entorno de test (actualizado al 15/10) en la portada | [chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md](chats/2026-11-03-set-pruebas-ws-bridge-avioa-marca-softur.md) |
