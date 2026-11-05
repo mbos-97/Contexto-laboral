@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-11-04
+**Última consolidación:** 2026-11-05
 
 ## 1. Cómo leer esta memoria
 
@@ -81,10 +81,13 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - Para pegar una tabla en un mail: HTML con estilos en línea y `Set-Clipboard -AsHtml` desde `powershell.exe` 5.1 con `-STA`; la tabla del chat se deforma al pegarla. Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips-parte-2.md). `[datos]`
 - Cliente secundario (`reserva.Cod_agcia2`, solapa Más Datos): con `lfacagciados = .T.` la factura toma CUIT, razón social, dirección, IVA y letra del secundario, pero sigue con `Cod_agcia` del principal (salvo las facturas de recargo que genera el recibo). También lo usan factura electrónica, percepciones RG 4815/5672 y listado de facturas; `LCCMUESTRACLISECUNDARIO` e `INFO1CODAGCIA2` lo muestran en saldos y ficha operativa. Ver [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md). `[código]`
 - Cliente secundario y cuenta corriente: el recibo de la reserva queda a nombre del principal y el saldo se filtra por el principal; el secundario no tiene deuda ni baja su cuenta. Cambiarlo requiere desarrollo en factura, recibo y saldo. Ver [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md). `[código]`
+- Pax del ítem y máscara del file: `ReservaDialog.ts` sube la cantidad de la máscara si un ítem tiene más pax, pero no la baja (se apaga con `NOTOMOCANTPAXDETRVA`). Ver [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md). `[código]`
+- Importador `ImportReservaAbrevV2`: admite un cliente por fila y avisa si no existe, pero toma los importes del archivo, no del tarifario. Ver [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md). `[código]`
 - Otras reglas de trabajo propias de Softur o de clientes: _pendiente de relevar con la usuaria._
 
 ## 4. Pendientes
 
+- [ ] Minuta de migración de Traffic a iTraffic: completar datos del cliente y confirmar marketplace e Infoterra, Valentina, los 16 usuarios, Omnibees con iCONNECT y HyperGuest. Ver [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md).
 - [ ] Cliente secundario: definir si se pide a desarrollo que factura, recibo y saldo queden en el secundario. Ver [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md).
 - [ ] Cliente secundario: confirmar con desarrollo la condición de `isp_FacturaValidate` (línea 931), que parece rechazar el tipo de documento 86 también en factura B. Ver [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md).
 - [ ] Eurovips, módulo Cuenta Corriente: puntos 1 a 7 de la minuta a cargo de Softur; Eurovips debe enviar el modelo de descarga Altair y el formato de cuenta corriente (fuera del diseño original). Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md).
@@ -112,6 +115,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Minuta comercial para el dueño de un cliente con Traffic: oportunidades con la migración a iTraffic y su estado según el código | [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md) |
 | Tabla de requerimientos con precios (357537, 358086, 358619, 357919, reporte de cupos, 358356) | [chats/2026-11-04-tabla-requerimientos-precios.md](chats/2026-11-04-tabla-requerimientos-precios.md) |
 | Cliente secundario: el recibo y el saldo quedan en el principal; bajar la cuenta del secundario requiere desarrollo | [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md) |
 | Cliente secundario de la reserva: datos fiscales de la factura, recibos, percepciones, listados y configs | [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md) |
