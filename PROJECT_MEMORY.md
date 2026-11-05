@@ -115,6 +115,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Traducción de las instrucciones para abrir WeTravel en un popup con un botón oculto | [chats/2026-11-05-traduccion-instrucciones-popup-wetravel.md](chats/2026-11-05-traduccion-instrucciones-popup-wetravel.md) |
 | Minuta comercial para el dueño de un cliente con Traffic: oportunidades con la migración a iTraffic y su estado según el código | [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md) |
 | Tabla de requerimientos con precios (357537, 358086, 358619, 357919, reporte de cupos, 358356) | [chats/2026-11-04-tabla-requerimientos-precios.md](chats/2026-11-04-tabla-requerimientos-precios.md) |
 | Cliente secundario: el recibo y el saldo quedan en el principal; bajar la cuenta del secundario requiere desarrollo | [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md) |
