@@ -87,7 +87,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 ## 4. Pendientes
 
-- [ ] Correo al dueño por la migración de Traffic a iTraffic (antes minuta): completar datos del cliente y confirmar marketplace e Infoterra, Valentina, los 16 usuarios, Omnibees con iCONNECT y HyperGuest. Ver [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md).
+- [ ] Correo al dueño por la migración de Traffic a iTraffic (antes minuta): confirmar si existe el autorregistro de pasajeros de salidas grupales (no está en Serenity; ver [chats/2026-11-06-correo-migracion-traffic-a-itraffic-grupos-y-ficha.md](chats/2026-11-06-correo-migracion-traffic-a-itraffic-grupos-y-ficha.md)); completar datos del cliente y confirmar marketplace e Infoterra, Valentina, los 16 usuarios, Omnibees con iCONNECT y HyperGuest. Ver [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md).
 - [ ] Cliente secundario: definir si se pide a desarrollo que factura, recibo y saldo queden en el secundario. Ver [chats/2026-11-04-cliente-secundario-reserva-parte-2.md](chats/2026-11-04-cliente-secundario-reserva-parte-2.md).
 - [ ] Cliente secundario: confirmar con desarrollo la condición de `isp_FacturaValidate` (línea 931), que parece rechazar el tipo de documento 86 también en factura B. Ver [chats/2026-11-04-cliente-secundario-reserva.md](chats/2026-11-04-cliente-secundario-reserva.md).
 - [ ] Eurovips, módulo Cuenta Corriente: puntos 1 a 7 de la minuta a cargo de Softur; Eurovips debe enviar el modelo de descarga Altair y el formato de cuenta corriente (fuera del diseño original). Ver [chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md](chats/2026-11-04-minuta-primera-entrega-cuenta-corriente-eurovips.md).
@@ -116,6 +116,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 | Tema | Memoria |
 |---|---|
 | Traducción de las instrucciones para abrir WeTravel en un popup con un botón oculto | [chats/2026-11-05-traduccion-instrucciones-popup-wetravel.md](chats/2026-11-05-traduccion-instrucciones-popup-wetravel.md) |
+| Correo de migración Traffic → iTraffic: frente de salidas grupales con autorregistro (estudiantil) y ficha operativa completa | [chats/2026-11-06-correo-migracion-traffic-a-itraffic-grupos-y-ficha.md](chats/2026-11-06-correo-migracion-traffic-a-itraffic-grupos-y-ficha.md) |
 | Minuta comercial Traffic → iTraffic pasa a correo al dueño (acompañamiento; migración como necesidad técnica de Softur) | [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic-parte-2.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic-parte-2.md) |
 | Minuta comercial para el dueño de un cliente con Traffic: oportunidades con la migración a iTraffic y su estado según el código | [chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md](chats/2026-11-05-minuta-comercial-migracion-traffic-a-itraffic.md) |
 | Correo al cliente: cliente secundario explicado simple (reserva, factura, recibo) | [chats/2026-11-05-correo-cliente-secundario.md](chats/2026-11-05-correo-cliente-secundario.md) |
