@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-11-06
+**Última consolidación:** 2026-11-10
 
 ## 1. Cómo leer esta memoria
 
@@ -120,6 +120,7 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 
 | Tema | Memoria |
 |---|---|
+| Reportes de Cupos Servicios (ficha operativa): tipo 01 (servicio, fecha, cupo, usado, disponible; no está en el combo CUTI) y tipo 60 (salidas de paquetes); ninguno con número de reserva | [chats/2026-11-10-reportes-cupos-servicios-ficha-operativa.md](chats/2026-11-10-reportes-cupos-servicios-ficha-operativa.md) |
 | Correo a Tolkeyen (encuesta): Encuestable, responsive y reporte en test; producción jueves 12/11; escala 1-5 después de producción; WhatsApp la semana próxima | [chats/2026-11-06-correo-respuesta-tolkeyen-encuesta-pendientes.md](chats/2026-11-06-correo-respuesta-tolkeyen-encuesta-pendientes.md) |
 | Propuesta de requerimientos Marpatag: sin IVA, alerta USD 350 (total USD 2.370), sin "En pocas palabras" ni fila "Contenido" — vigente | [chats/2026-11-06-propuesta-requerimientos-marpatag-parte-3.md](chats/2026-11-06-propuesta-requerimientos-marpatag-parte-3.md) |
 | Propuesta de requerimientos Marpatag: versión corta (2-3 renglones por requerimiento, 3 páginas) | [chats/2026-11-06-propuesta-requerimientos-marpatag-parte-2.md](chats/2026-11-06-propuesta-requerimientos-marpatag-parte-2.md) |
