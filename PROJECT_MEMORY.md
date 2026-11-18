@@ -5,7 +5,7 @@
 | Propuesta PaxDirect para Marpatag (venta a Amex con cobro directo al pasajero y beneficio con operador Amex) | [chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md](chats/2026-10-19-propuesta-paxdirect-marpatag-amex.md) |
 # Memoria del proyecto — Contexto-Laboral
 
-**Última consolidación:** 2026-11-17
+**Última consolidación:** 2026-11-18
 
 ## 1. Cómo leer esta memoria
 
@@ -128,11 +128,13 @@ Esta síntesis contiene sólo conocimiento transversal y vigente; el detalle est
 - [ ] Cuenca del Plata: movimientos internos con un file por salida y planning (consultar si se costean por unidad y probar); móviles no disponibles con un mapa de vehículos a desarrollar (definir alcance y estimar). Ver [chats/2026-11-03-movimientos-internos-moviles-cuenca-del-plata-parte-2.md](chats/2026-11-03-movimientos-internos-moviles-cuenca-del-plata-parte-2.md).
 - [ ] Cuenca del Plata: evaluar reserva mensual por tipo de gasto con costo generado desde la autorización (`LRECOSTEOXAUTORIZA`, requiere filtro por tipo de reserva). Ver [chats/2026-11-03-costos-desde-autorizacion-gastos-cuenca-del-plata.md](chats/2026-11-03-costos-desde-autorizacion-gastos-cuenca-del-plata.md).
 - [ ] Cuenca del Plata: "Proceso por sector v2 - Cuenca del Plata (marca Softur).docx" (editado por la usuaria: editar sobre el .docx, no regenerar; ver [parte 2](chats/2026-10-29-proceso-por-sector-v2-cuenca-del-plata-parte-2.md)) — definir vuelos 72 h vs 24 h, si Reservas asigna guías desde el planning y los responsables de Reservas y RRHH; validar los "recurrir a". Ver [chats/2026-10-29-proceso-por-sector-v2-cuenca-del-plata.md](chats/2026-10-29-proceso-por-sector-v2-cuenca-del-plata.md).
+- [ ] Wanderlust: demora al agregar paquetes (~19 s). Causa probable en código: sesión ASP.NET completa en todos los servicios (pedidos serializados, esperas de 500 ms) + llamadas `async: false` en ReservaDialog.ts. Propuesto a desarrollo: sesión ReadOnly en `/Services/*` y quitar llamadas sincrónicas; re-medir con i2Server. Ver [chats/2026-11-18-wanderlust-demora-carga-paquetes-sesion-aspnet.md](chats/2026-11-18-wanderlust-demora-carga-paquetes-sesion-aspnet.md). `[código]`
 
 ## 5. Índice de memorias
 
 | Tema | Memoria |
 |---|---|
+| Wanderlust: demora al cargar paquetes; bloqueo de sesión ASP.NET (múltiplos de 500 ms) y llamadas sincrónicas en la reserva | [chats/2026-11-18-wanderlust-demora-carga-paquetes-sesion-aspnet.md](chats/2026-11-18-wanderlust-demora-carga-paquetes-sesion-aspnet.md) |
 | Planilla "Información a cargar · Tarifario Web" de Tolkeyen con marca Softur, logo Tolkeyen, casillas nativas y solapa GENERALES | [chats/2026-11-17-planilla-informacion-a-cargar-tarifario-web-tolkeyen.md](chats/2026-11-17-planilla-informacion-a-cargar-tarifario-web-tolkeyen.md) |
 | Manual Tarifario Web v1: Paquetes = servicios tipo SERVICIO PAQUETE [SP]; Hoteles da NO_RATES pese a tarifas publicadas (pendiente con desarrollo); 15 páginas (vigente) | [chats/2026-11-17-manual-tarifario-web-v1-parte-3.md](chats/2026-11-17-manual-tarifario-web-v1-parte-3.md) |
 | Manual Tarifario Web v1 genérico (marca Softur): logo = Cliente › Logo; destino = Ciudades › Imágenes (1920×220, se repite); categorías = BannerPage DEST (nombre con PAQUETES/TRF/EXC/HOTEL); resultados = Servicio › Imágenes; ventana Ver tarifas = Textgen T. WEB; Observaciones ya no se ve (vigente) | [chats/2026-11-17-manual-tarifario-web-v1-parte-2.md](chats/2026-11-17-manual-tarifario-web-v1-parte-2.md) |
